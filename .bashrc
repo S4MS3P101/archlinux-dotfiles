@@ -1,8 +1,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-#PS1='[\u@\h \W]\$ '
-PS1='[\e[1;32m\u\e[0m@\e[1;36m\h \e[0m\e[1;31m\W\e[0m] '
+PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
 
 ## PATHS ##
 export PATH=/home/samsepi01/.local/bin:$PATH
