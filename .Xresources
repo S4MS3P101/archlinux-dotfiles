@@ -47,7 +47,11 @@ URxvt.keysym.M-s: perl:keyboard-select:search
 URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.underlineURLs:true
 URxvt.urlButton:1
-URxvt.keysym.C-j:     resize-font:smaller
-URxvt.keysym.C-k:      resize-font:bigger
+URxvt.keysym.C-+:     resize-font:smaller
+URxvt.keysym.C--:      resize-font:bigger
 URxvt.keysym.C-equal:     resize-font:reset
 URxvt.keysym.C-question:  resize-font:show
+
+!! Other
+URxvt.iso14755: false
+URxvt.iso14755_52: false
