@@ -9,5 +9,7 @@ set mouse=a
 set bg=dark
 colorscheme gruvbox
 
-
+let g:lightline = {
+      \ 'colorscheme': 'jellybeans',
+      \ }
 
