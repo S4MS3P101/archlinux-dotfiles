@@ -31,12 +31,12 @@
 
 !! URxvt Appearance
 URxvt.font: xft:JetBrains Mono:size=10:antialias=true:hinting=true
-URxvt.scrollBar:false
-URxvt.internalBorder:5
-URxvt.cursorBlink:true
-URxvt.letterSpace:-1
-URxvt.depth:32
-URxvt.background:[85]#282828
+URxvt.scrollBar: false
+URxvt.internalBorder: 5
+URxvt.cursorBlink: true
+URxvt.letterSpace: -1
+URxvt.depth: 32
+URxvt.background: [85]#282828
 
 !! Extensions
 URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select,resize-font
@@ -46,12 +46,12 @@ URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
 URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.keysym.M-s: perl:keyboard-select:search
 URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.underlineURLs:true
-URxvt.urlButton:1
-URxvt.keysym.C-+:     resize-font:smaller
-URxvt.keysym.C--:      resize-font:bigger
-URxvt.keysym.C-equal:     resize-font:reset
-URxvt.keysym.C-question:  resize-font:show
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+URxvt.keysym.C-+: resize-font:smaller
+URxvt.keysym.C--: resize-font:bigger
+URxvt.keysym.C-equal: resize-font:reset
+URxvt.keysym.C-question: resize-font:show
 
 !! Other
 URxvt.iso14755: false
