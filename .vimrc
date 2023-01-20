@@ -10,6 +10,8 @@ set cursorline
 set hlsearch
 set mouse=a
 set bg=dark
+
+let g:gruvbox_contrast_dark = 'hard'
 colorscheme gruvbox
 
 let g:lightline = {

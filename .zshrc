@@ -13,11 +13,15 @@ alias clean='yay -Scc --noconfirm'
 alias orphans='pacman -Qtdq | sudo pacman -Rns -'
 alias vpnon='protonvpn-cli c -f'
 alias vpnoff='protonvpn-cli d'
+alias wifion='nmcli radio wifi on'
+alias wifioff='nmcli radio wifi off'
+alias blueon='bluetoothctl power on'
+alias blueoff='bluetoothctl power off'
 
 ## ZSH PLUGINS ##
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ## ZSH HISTORY ##
-SAVEHIST=1000
+SAVEHIST=500
 HISTFILE=~/.zsh_history
